@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="container">
+          <div class="heading">
+            <h1>TODO LIST</h1>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12">
+              <form id="message-form">
+                <div class="input">
+                  <input
+                    type="text"
+                    id="add-message"
+                    placeholder="Type Here"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="button">
+                  <input class="btn" type="submit" />
+                </div>
+              </form>
+              <div id="alert" class="alert mt-2"></div>
+            </div>
+            <div class="col-12 col-md-12">
+              <div class="scroll">
+                <table class="table table-bordered" >
+                  <thead>
+                    <th id="thtd">ID</th>
+                    <th id="thtd">Message</th>
+                    <th id="thtd">Remove</th>
+                  </thead>
+                  <tbody id="list">
+                  </tbody>
+                </table>
+              </div>
+              <!-- <div id="alert" class="alert mt-2"></div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
