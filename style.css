@@ -8,10 +8,10 @@ body {
 section {
   background-image: linear-gradient(
       to right,
-      rgba(242, 109, 109, 0.857),
-      rgba(157, 206, 41, 0.801)
+      rgba(241, 104, 104, 0.178),
+      rgba(186, 235, 74, 0.178)
     ),
-    url("images/background.jpg");
+    url("images/background-2.jpg");
   width: 100%;
   height: 100vh;
   background-size: cover;
